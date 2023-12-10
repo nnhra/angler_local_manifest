@@ -3,8 +3,11 @@
 
 	<remote name="lineage"
 		fetch="https://github.com/LineageOS/"
-		revision="lineage-18.1" />
+		revision="lineage-17.1" />
 
-	<project path="device/huawei/angler" name="android_device_huawei_angler" remote="lineage" />
+	<remote name="itzkaguya"
+		fetch="https://github.com/nnhra/" />
+
+  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="itzkaguya" revision="lineage-17.1" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="lineage" />
 </manifest>
