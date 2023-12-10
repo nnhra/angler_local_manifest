@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS/"
+		revision="lineage-18.1" />
+
+	<project path="device/huawei/angler" name="android_device_huawei_angler" remote="lineage" />
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="lineage" />
+</manifest>
